@@ -8,13 +8,6 @@ import com.design.patterns.strategy.*;
 
 public class App {
     public static void main(String[] args) {
-        Duck mallard = new Mallard();
-        Duck rubberDucky = new RubberDucky();
-        mallard.display();
-        mallard.fly();
-        mallard.quack();
-        rubberDucky.display();
-        rubberDucky.fly();
-        rubberDucky.quack();
+        DuckSimulator.run();
     }
 }
