@@ -3,13 +3,15 @@
  */
 package com.design.patterns.app;
 
-import com.design.patterns.observer.WeatherApp;
-import com.design.patterns.strategy.*;
+import com.design.patterns.decorator.StarBuzzCoffee;
+// import com.design.patterns.observer.WeatherApp;
+// import com.design.patterns.strategy.DuckSimulator;
 
 
 public class App {
     public static void main(String[] args) {
         // DuckSimulator.run();
-        WeatherApp.run();
+        // WeatherApp.run();
+        StarBuzzCoffee.run();
     }
 }
